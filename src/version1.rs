@@ -4,7 +4,7 @@ use std::collections::HashMap;
 use std::convert::TryFrom;
 use std::fmt;
 
-pub const PROTOCOL_VERSION: &'static str = "1.0";
+pub const PROTOCOL_VERSION: &str = "1.0";
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "camelCase")]
